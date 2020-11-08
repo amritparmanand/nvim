@@ -67,3 +67,7 @@ endif
 " Better nav for omnicomplete TODO figure out why this is being overridden
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
+
+au VimEnter * wincmd p
+
+au VimEnter * hi Normal guibg=NONE ctermbg=NONE

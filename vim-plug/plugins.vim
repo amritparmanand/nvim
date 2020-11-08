@@ -47,6 +47,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Closetags
+    Plug 'petobens/poet-v'
     Plug 'alvan/vim-closetag'
     " Themes
     Plug 'christianchiarulli/nvcode.vim'
@@ -94,7 +95,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'AndrewRadev/tagalong.vim'
     " live server
     Plug 'turbio/bracey.vim'
-    " Smooth scroll
+   " Smooth scroll
     Plug 'psliwka/vim-smoothie'
     " async tasks
     Plug 'skywind3000/asynctasks.vim'
@@ -108,6 +109,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mattn/webapi-vim'
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     " Rainbow brackets
     " Plug 'luochen1990/rainbow'
     " Async Linting Engine
@@ -123,7 +126,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'maxmellon/vim-jsx-pretty'
     " Plug 'jelera/vim-javascript-syntax'
     " Plugin Graveyard
-
+    Plug 'cjrh/vim-conda'
     " jsx syntax support
     " Typescript syntax
     " Plug 'HerringtonDarkholme/yats.vim'
@@ -141,12 +144,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'hardcoreplayers/spaceline.vim'
     " Plug 'vim-airline/vim-airline-themes'
     " Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-    " Plug 'arcticicestudio/nord-vim'
+    " Plug 'arcticicestudio/nord-vim
     " Ranger
     " Plug 'francoiscabrol/ranger.vim'
     " Plug 'rbgrouleff/bclose.vim'
     " Making stuff
-    " Plug 'neomake/neomake'
+    " Plug 'eomake/eomake'
     " Plug 'mhinz/vim-signify'
     " Plug 'easymotion/vim-easymotion'
     " Plug 'preservim/nerdcommenter'
